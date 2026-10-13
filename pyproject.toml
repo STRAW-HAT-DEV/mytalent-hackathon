@@ -1,0 +1,18 @@
+[project]
+name = "hackathon"
+version = "0.1.0"
+description = "project that was submitted by me during the AIPS Hackathon at Melbourne University"
+readme = "README.md"
+authors = [
+    { name = "Rohan Prasen Kedari", email = "rohanprasenkedari@gmail.com" }
+    { name = "Ashfaaq Hamja Shaik", email = "ashfaaq.hamja786@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+hackathon = "hackathon:main"
+
+[build-system]
+requires = ["uv_build>=0.13.0,<0.14.0"]
+build-backend = "uv_build"
