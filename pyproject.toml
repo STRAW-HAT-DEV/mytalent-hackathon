@@ -12,6 +12,7 @@ dependencies = [
     "openai>=3.29.0",
     "python-dotenv>=1.2.4",
     "streamlit>=1.65.0",
+    "watchdog>=6.0.0",
 ]
 
 [project.scripts]
