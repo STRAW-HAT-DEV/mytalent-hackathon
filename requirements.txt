@@ -23,6 +23,8 @@ click==8.5.0
     # via
     #   streamlit
     #   uvicorn
+et-xmlfile==2.0.0
+    # via openpyxl
 h11==0.16.0
     # via
     #   httpcore2
@@ -62,6 +64,8 @@ numpy==2.5.4
     #   pydeck
     #   streamlit
 openai==3.29.0
+    # via hackathon
+openpyxl==3.1.5
     # via hackathon
 packaging==26.3
     # via
@@ -131,7 +135,9 @@ urllib3==2.8.0
     # via requests
 uvicorn==0.54.0
     # via streamlit
-watchdog==6.0.0 ; sys_platform != 'darwin'
-    # via streamlit
+watchdog==6.0.0
+    # via
+    #   hackathon
+    #   streamlit
 websockets==17.2
     # via streamlit

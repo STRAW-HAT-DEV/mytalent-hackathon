@@ -10,8 +10,10 @@ authors = [
 requires-python = ">=3.12"
 dependencies = [
     "openai>=3.29.0",
+    "openpyxl>=3.1.5",
     "python-dotenv>=1.2.4",
     "streamlit>=1.65.0",
+    "watchdog>=6.0.0",
 ]
 
 [project.scripts]

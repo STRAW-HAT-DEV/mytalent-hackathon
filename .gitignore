@@ -13,3 +13,7 @@ wheels/
 .env
 .env.*
 !.env.example
+.claude-flow
+.claude/
+ruvector.db
+.agents/
