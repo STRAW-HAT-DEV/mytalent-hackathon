@@ -1,0 +1,6 @@
+student_id,diagnosis,evidence,suggested_next_step
+1,ON_TRACK,"isolated errors only, each recovered on the next attempt",Move on to next Module / VCAA mock
+2,CARELESS,"11 C on points DONE elsewhere: 2.1.A.c, 2.1.A.g, 2.1.B.b, 2.1.B.i, 2.2.A.d, 2.2.A.j, 2.2.B.a, 2.2.B.g, 2.3.A.e, 2.3.A.h, 2.3.B.c; finishes in ~31 min with 0 checks",2-minute check routine; Retest in 3 days
+3,KNOWLEDGE_GAP,"chain_rule: W in 3.1.A.e, 3.1.B.e, 3.2.A.d, 3.2.B.d, 3.3.A.f, 3.3.B.f",Re-teach chain rule; redo Demo; Retest
+4,TIME_ALLOCATION,"4.1.A (3 trailing blanks); 4.2.A (6 trailing blanks); 4.2.B (2 trailing blanks); 4.3.A (3 trailing blanks); timing log hits 50-min limit, 0 checks",Timed section practice at 5 min/question
+5,INSUFFICIENT_EVIDENCE,only 1 submitted test,Probe in session; no label yet
