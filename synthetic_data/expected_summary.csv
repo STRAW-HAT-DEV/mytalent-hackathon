@@ -1,0 +1,6 @@
+student_id,total_points,covered,covered_pct,understood,understood_pct,mastered,mastered_of_all_pct,mastered_of_covered_pct
+1,30,30,100.0,30,100.0,30,100.0,100.0
+2,30,30,100.0,30,100.0,25,83.33,83.33
+3,30,30,100.0,27,90.0,26,86.67,86.67
+4,30,30,100.0,26,86.67,26,86.67,86.67
+5,30,10,33.33,1,3.33,0,0.0,0.0
