@@ -1,14 +1,18 @@
 [project]
 name = "hackathon"
-version = "0.1.0"
+version = "1.0.0.dev1"
 description = "project that was submitted by me during the AIPS Hackathon at Melbourne University"
 readme = "README.md"
 authors = [
-    { name = "Rohan Prasen Kedari", email = "rohanprasenkedari@gmail.com" }
+    { name = "Rohan Prasen Kedari", email = "rohanprasenkedari@gmail.com" },
     { name = "Ashfaaq Hamja Shaik", email = "ashfaaq.hamja786@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "fastapi>=0.143.0",
+    "openai>=3.29.0",
+    "uvicorn>=0.54.0",
+]
 
 [project.scripts]
 hackathon = "hackathon:main"
@@ -16,3 +20,10 @@ hackathon = "hackathon:main"
 [build-system]
 requires = ["uv_build>=0.13.0,<0.14.0"]
 build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.7.0",
+    "pytest>=9.1.1",
+    "ruff>=0.17.0",
+]
