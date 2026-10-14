@@ -17,3 +17,4 @@ wheels/
 .claude/
 ruvector.db
 .agents/
+.DS_Store
